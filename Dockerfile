@@ -1,5 +1,7 @@
 FROM node:alpine
 
+MAINTAINER Jordao Rosario <jordao.rosario01@gmail.com>
+
 RUN apk add --update \
     libxml2-dev openssl-dev \
     bash curl-dev \
