@@ -9,4 +9,9 @@ RUN apk add --update \
     freetype-dev libjpeg-turbo-dev\
     libpng-dev libmcrypt-dev nano
 
-RUN yarn global add graphql-cli
+RUN apk add --update --virtual \
+        build-dependencies \
+        build-base \
+        autoconf libtool
+
+
