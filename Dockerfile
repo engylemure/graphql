@@ -7,7 +7,8 @@ RUN apk add --update \
     bash curl-dev \
     icu-dev git ca-certificates\
     freetype-dev libjpeg-turbo-dev\
-    libpng-dev libmcrypt-dev nano
+    libpng-dev libmcrypt-dev nano\
+    python 
 
 RUN apk add --update --virtual \
         build-dependencies \
