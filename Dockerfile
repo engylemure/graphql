@@ -3,7 +3,7 @@ FROM node:10.13.0-alpine
 MAINTAINER Jordao Rosario <jordao.rosario01@gmail.com>
 
 RUN apk add --update \
-    libxml2-dev openssl-dev \
+    libxml2-dev libressl-dev  \
     bash curl-dev \
     icu-dev git ca-certificates\
     freetype-dev libjpeg-turbo-dev\
