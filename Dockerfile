@@ -1,4 +1,4 @@
-FROM node:8.10.0-alpine
+FROM node:10.13.0-alpine
 
 MAINTAINER Jordao Rosario <jordao.rosario01@gmail.com>
 
